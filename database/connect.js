@@ -2,7 +2,7 @@
 
 import { MongoClient } from 'mongodb'
 
-const uri = process.env.MONGODB_URI
+const uri ="mongodb+srv://achrizal:123@cluster0.eugtx.mongodb.net/db-latihan?retryWrites=true&w=majority"
 const options = {
    useUnifiedTopology: true,
    useNewUrlParser: true,
